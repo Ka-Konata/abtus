@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Montserrat&display=swap');
+
+/* ---------------------------------------------------------
+Configurações gerais */
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: "Baloo Tammudu 2";
+}
+
+/* ---------------------------------------------------------
+Configurações home */
+
+#home {
+    background: rgb(51, 51, 51) url(https://cdn.discordapp.com/attachments/792964163017244683/852735325964337162/723262.gif) no-repeat fixed;
+    background-size: cover;
+}
+
+#principal img {
+    width: 250px;
+    border: 8px rgb(78, 78, 243) solid;
+    border-radius: 180px;
+}
+
+#principal {
+    width: 600px;
+    height: 360px;
+    margin: 150px auto;
+    margin-bottom: 0px;
+}
+
+.avatar {
+    float: left;
+}
+
+#dudu {
+    margin-right: 68px;
+}
+
+h1.name {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Fazendo o botão */
+
+#friends {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: rgb(78, 78, 243);
+
+    padding: 10px 50px;
+    border-radius: 20px;
+
+    background: none;
+    border: 3px rgb(78, 78, 243) solid;
+    transition: 0.3s background-color, 0.3s color;
+}
+
+#friends:hover {
+    background-color: rgb(78, 78, 243);
+    color: white;
+}
+
+#div-friends {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* ---------------------------------------------------------
+Configurações friends */
+
+#friends-body {
+    text-align: center;
+    color: white;
+    background: rgb(51, 51, 51) url(https://cdn.discordapp.com/attachments/810690029847969833/852728769185579018/4-43065_anime-wallpaper-gif-1080p.gif) no-repeat fixed;
+    background-size: cover;
+}
+
+#friends-title {
+    color: white;
+    margin: 50px auto;
+    font-size: 3.8em;
+}
+
+.area-amg {
+    width: 900px;
+    margin: 15px auto;
+}
+
+.area-amg img {
+    float: left;
+    width: 160px;
+    border: 4px rgb(78, 78, 243) solid;
+    border-radius: 180px;
+    margin-right: 50px;
+}
+
+.area-amg h2 {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px 20px 0px;
+    width: 650px;
+    text-align: left;
+}
+
+.area-amg p {
+    margin-top: 60px;
+    line-height: 1em;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.clear {
+    clear: both;
+}
