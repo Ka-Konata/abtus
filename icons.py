@@ -14,7 +14,7 @@ def actualize_icons():
     url = f"https://discord.com/api/v8/users/"
     headers = {"Authorization": f"Bot {configs.TOKEN}"}
 
-    ka = "848996654799126578"
+    ka = "502687173099913216"
     dudu = "536242240440369163"
     lanna = "744400468712882216"
     gibs = "417798802716622858"
