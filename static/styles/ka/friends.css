@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Montserrat&display=swap');
+
+/* ---------------------------------------------------------
+Configurações ka_friends */
+
+body {
+    text-align: center;
+    color: white;
+    background: rgb(51, 51, 51) url(https://cdn.discordapp.com/attachments/810690029847969833/852728769185579018/4-43065_anime-wallpaper-gif-1080p.gif) no-repeat fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    margin: 50px auto;
+    font-size: 3.8em;
+}
+
+ul {
+    width: calc(90% - 20px);
+    position: relative;
+    left: 5%;
+    list-style: none;
+}
+
+.area-amg {
+    width: 90%;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+.area-amg img {
+    float: left;
+    width: 160px;
+    border: 4px white solid;
+    border-radius: 180px;
+    margin: 0 5% 40px 0;
+}   
+
+.area-amg h2 {  
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px 20px 0px;
+    text-align: left;
+}
+
+.area-amg p {
+    min-width: 420px;
+    margin-top: 30px;
+    line-height: 1em;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.clear {
+    clear: both;
+}

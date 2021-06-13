@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/810690029847969833/852725463977295882/821475732177944601.png" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/ka/profile.css') }}">
+    <script src="{{ url_for('static', filename='javaScript/ka/title.js') }}"></script>
+    <script src="{{ url_for('static', filename='javaScript/ka/red.js') }}"></script>
+    <script src="{{ url_for('static', filename='javaScript/urls.js') }}"></script>
+    <title>kazinho</title>
+</head>
+<body>
+    <div class="avatar">
+        <img id="ka" src="https://cdn.discordapp.com/embed/avatars/3.png?size=260" alt="ka avatar">
+        
+        <h1 class="name">Ka#0001</h1>
+    </div>
+    <div id="div-friends"><input type="button" onclick="redirect()" id="friends" value="Friends"></input></div>
+</body>
+<script>
+    getIcons()
+    titleLoop()
+</script>
+</html>
