@@ -16,9 +16,12 @@
     <div class="avatar">
         <img id="dudu" src="https://cdn.discordapp.com/embed/avatars/3.png?size=260" alt="dudu avatar">
         
-        <h1 class="name">Dudu#9656</h1>
+        <div id="name">
+            <span class="name">Dudu#9656</span>
+            <input id="copiar" type="button" value="Copiar" onclick="copyText()">
+        </div>
     </div>
-    <div id="div-friends"><input type="button" onclick="redirect()" id="friends" value="Friends"></input></div>
+    <div class="div-button first"><input class="blue" type="button" onclick="redFriends()" value="Friends"></input></div>
 </body>
 <script>
     getIcons()

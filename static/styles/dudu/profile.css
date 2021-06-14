@@ -6,7 +6,7 @@
 Configurações ka */
 
 body {
-    background: rgb(51, 51, 51) url(https://cdn.discordapp.com/attachments/792964163017244683/852735325964337162/723262.gif) no-repeat fixed;
+    background: rgb(51, 51, 51) url(https://cdn.discordapp.com/attachments/792964163017244683/854041882262634527/c6dfa22150790c670c988c5196f6ba0e.gif) no-repeat fixed;
     background-size: cover;
 }
 
@@ -23,37 +23,72 @@ body {
     border-radius: 180px;
 }
 
-h1.name {
+div#name {
+    margin: 0 auto;
+    height: 50px;
+    width: 270px;
+}
+
+span.name {
     color: white;
     text-align: center;
     font-size: 2em;
     margin-top: 20px;
 }
 
+input#copiar {
+    position: relative;
+    padding: 0;
+    width: 100px;
+    text-align: right;
+    background: none;
+    border: none;
+    font-size: 1.4em;
+    color: rgb(92, 91, 91);
+}
+
+input#copiar:hover{
+    color: rgb(117, 117, 117);
+}
+
+input#copiar:focus{
+    color: rgb(70, 69, 69);
+}
+
 /* Fazendo o botão */
 
-#friends {
+input[type="button"] {
     text-align: center;
     font-family: Montserrat;
     font-weight: 700;
     font-size: 1.2em;
-    color: rgb(78, 78, 243);
 
     padding: 10px 50px;
     border-radius: 20px;
 
     background: none;
-    border: 3px rgb(78, 78, 243) solid;
     transition: 0.3s background-color, 0.3s color;
 }
 
-#friends:hover {
-    background-color: rgb(78, 78, 243);
+input[type="button"]:hover {
     color: white;
 }
 
-#div-friends {
+.div-button {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: center;
+}
+
+.first {
+    margin-top: 50px;
+}
+
+.blue {
+    color: rgb(78, 78, 243);
+    border: 3px rgb(78, 78, 243) solid;
+}
+
+input[type="button"].blue:hover {
+    background-color: rgb(78, 78, 243);
 }
