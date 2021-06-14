@@ -33,7 +33,3 @@ def dudu():
 @app.route("/d/friends")
 def dudu_friends():
     return render_template("Dudu-friends.html")
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
