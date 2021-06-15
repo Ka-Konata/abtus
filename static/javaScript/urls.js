@@ -1,5 +1,5 @@
 function getIcons() {
-    var url = "http://127.0.0.1:5000/icons";
+    var url = "http://20.201.114.48//icons";
 
     var xhttp = new XMLHttpRequest();
     xhttp.open("GET", url, false);

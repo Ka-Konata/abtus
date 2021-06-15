@@ -33,3 +33,6 @@ def dudu():
 @app.route("/d/friends")
 def dudu_friends():
     return render_template("Dudu-friends.html")
+
+
+app.run(host='10.2.0.4', port=80)
